@@ -1,0 +1,272 @@
+[
+  {
+    "@id": "urn:test:rq2:Plane5",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:25.1760589Z"
+      }
+    ],
+    "http://example.org/flying.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:46:03.9473014Z"
+      }
+    ],
+    "http://example.org/flying.value": [
+      {
+        "@value": false
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Plane5"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:Airport1",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.9411199Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Airport"
+      }
+    ],
+    "http://example.org/otv2:hasChild": [
+      {
+        "@id": "urn:test:rq2:TerminalA"
+      },
+      {
+        "@id": "urn:test:rq2:TerminalB"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:Plane2",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:25.0705587Z"
+      }
+    ],
+    "http://example.org/flying.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:46:03.6682913Z"
+      }
+    ],
+    "http://example.org/flying.value": [
+      {
+        "@value": false
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Plane2"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:GateB1",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.7693138Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "GateB1"
+      }
+    ],
+    "http://example.org/occupied.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:57:25.3653148Z"
+      }
+    ],
+    "http://example.org/occupied.value": [
+      {
+        "@value": true
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:Plane4",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:25.1448479Z"
+      }
+    ],
+    "http://example.org/flying.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:46:03.7067274Z"
+      }
+    ],
+    "http://example.org/flying.value": [
+      {
+        "@value": true
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Plane4"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:TerminalA",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.8611466Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "TerminalA"
+      }
+    ],
+    "http://example.org/otv2:hasChild": [
+      {
+        "@id": "urn:test:rq2:GateA1"
+      },
+      {
+        "@id": "urn:test:rq2:GateA2"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:TerminalB",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.9019411Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "TerminalB"
+      }
+    ],
+    "http://example.org/otv2:hasChild": [
+      {
+        "@id": "urn:test:rq2:GateB1"
+      },
+      {
+        "@id": "urn:test:rq2:GateB2"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:Plane3",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:25.1025082Z"
+      }
+    ],
+    "http://example.org/flying.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:46:03.6888759Z"
+      }
+    ],
+    "http://example.org/flying.value": [
+      {
+        "@value": false
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Plane3"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:GateB2",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.8154602Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "GateB2"
+      }
+    ],
+    "http://example.org/occupied.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:57:26.0952317Z"
+      }
+    ],
+    "http://example.org/occupied.value": [
+      {
+        "@value": true
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:Plane1",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.9897512Z"
+      }
+    ],
+    "http://example.org/flying.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:46:03.651963Z"
+      }
+    ],
+    "http://example.org/flying.value": [
+      {
+        "@value": false
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "Plane1"
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:GateA1",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.6589867Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "GateA1"
+      }
+    ],
+    "http://example.org/occupied.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:57:25.3125278Z"
+      }
+    ],
+    "http://example.org/occupied.value": [
+      {
+        "@value": true
+      }
+    ]
+  },
+  {
+    "@id": "urn:test:rq2:GateA2",
+    "http://example.org/createdAt": [
+      {
+        "@value": "2025-10-15T09:57:24.7359791Z"
+      }
+    ],
+    "http://example.org/name": [
+      {
+        "@value": "GateA2"
+      }
+    ],
+    "http://example.org/occupied.lastUpdate": [
+      {
+        "@value": "2025-10-15T09:57:25.348591Z"
+      }
+    ],
+    "http://example.org/occupied.value": [
+      {
+        "@value": true
+      }
+    ]
+  }
+]
