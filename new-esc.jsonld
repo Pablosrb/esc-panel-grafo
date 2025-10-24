@@ -1,0 +1,54 @@
+{  
+    "@context": 
+    {    
+        "xsd": "http://www.w3.org/2001/XMLSchema#",    
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",    
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",    
+        "foaf": "http://xmlns.com/foaf/0.1/",    
+        "prefpeople": "http://example.org/ontology/people",    
+        "ex": "http://example.org/",    
+        "schema": "http://schema.org/"  
+    },  
+    "@graph": 
+    [    
+        {      
+            "@id": "ex:alice",      
+            "foaf:name": "Alice",     
+            "foaf:age": "30",      
+            "foaf:knows": "ex:bob",      
+            "schema:memberOf": "ex:bookClub"   
+        },    
+        {      
+            "@id": "ex:bookClub",      
+            "schema:name": "Local Book Club",      
+            "schema:memberOf": "ex:alice"    
+        },    
+        {      
+            "@id": "ex:chessClub",      
+            "schema:name": "City Chess Club",      
+            "schema:memberOf": "ex:dave"    
+        },    
+        {      
+            "@id": "ex:carol",      
+            "foaf:name": "Carol",     
+            "foaf:age": "28",      
+            "foaf:knows": "ex:alice",      
+            "schema:memberOf": "ex:bookClub"   
+        },    
+        {      
+            "@id": "ex:bob",      
+            "foaf:age": "25",      
+            "foaf:name": "Bob",      
+            "foaf:knows": "ex:dave",      
+            "schema:memberOf": "ex:chessClub"    
+        },    
+        {      
+            "@id": "ex:dave",     
+            "foaf:age": "35",
+            "foaf:name": "Dave",
+            "foaf:knows": "ex:bob",
+            "schema:memberOf": "ex:chessClub"    
+        }
+    ]
+}
+ 
